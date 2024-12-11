@@ -5,10 +5,10 @@ block_cipher = None
 
 
 a = Analysis(
-    ['leyes.py'],
+    ['descripcion.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:\\Python\\Mapeo\\leyes.csv', '.')],
+    datas=[],
     hiddenimports=['comtypes.stream', 'comtypes'],
     hookspath=[],
     hooksconfig={},
@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='leyes',
+    name='descripcion',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
