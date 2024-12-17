@@ -8,7 +8,7 @@ a = Analysis(
     ['mapeo.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:\\Python\\Mapeo\\data\\mineralizacion.csv', '.'), ('C:\\Python\\Mapeo\\data\\vetillas.csv', '.')],
+    datas=[('C:\\Python\\Mapeo\\data\\litologia.csv', '.'), ('C:\\Python\\Mapeo\\data\\volalt.csv', '.'), ('C:\\Python\\Mapeo\\data\\alteracion.csv', '.'), ('C:\\Python\\Mapeo\\data\\estructuras.csv', '.'), ('C:\\Python\\Mapeo\\data\\mineralizacion.csv', '.'), ('C:\\Python\\Mapeo\\data\\minzone.csv', '.'), ('C:\\Python\\Mapeo\\data\\pisotecho.csv', '.'), ('C:\\Python\\Mapeo\\data\\vetillas.csv', '.'), ('C:\\Python\\Mapeo\\data\\ug.csv', '.')],
     hiddenimports=['comtypes.stream', 'comtypes'],
     hookspath=[],
     hooksconfig={},
