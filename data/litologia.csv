@@ -1,23 +1,5 @@
 Desde,Hasta,Litologia,Comentarios
-0.0,8.0,SI,relleno de plataforma
-8.0,283.03,DIQ,En LXT con limonitas en fracturas
-283.03,283.55,BH,desarrollado en DiQ con matriz qz turmalina y sulf
-283.55,325.1,DIQ,
-325.1,366.75,PB,
-366.75,372.95,BH,Textura UST brain
-372.95,406.9,PB,
-406.9,408.35,BH,Textura UST brain
-408.35,416.48,PB,
-416.48,420.57,BH,desarrollada en PB con UST
-420.57,470.55,PB,
-470.55,475.9,PD,
-475.9,489.6,BM,50%PB 50%PD ocurrencia vetillas tipo B onduladas tipo UST
-489.6,521.75,PB,
-521.75,564.3,BMH,30%PB 70%PD
-564.3,586.4,PB,
-586.4,588.9,PD,
-588.9,593.2,PB,
-593.2,603.8,BMH,PB85% PD15% matriz silice
-603.8,628.0,PB,
-628.0,783.8,BMH,DiQ/APL 90/10
-783.8,785.0,PB,
+0.0,21.8,SI,tricono
+21.8,86.0,BMH,PA 90%  DIQ 10%
+86.0,223.2,BMH,PA 90%  DIQ 10%
+223.2,242.0,BMH,PA 80%  DIQ 20%

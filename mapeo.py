@@ -1,7 +1,7 @@
 import pyautogui
 import pandas as pd
 from pywinauto import Application
-#import time
+import time
 import sys
 import os
 
@@ -39,11 +39,14 @@ def ingresar_litologia(df):
         pyautogui.write(f"{row['Hasta']}")
         pyautogui.press('tab')
         pyautogui.press('esc')
-        pyautogui.write(f"{row['Litologia']}")        
+        time.sleep(0.2)
+        pyautogui.write(f"{row['Litologia']}")
+        time.sleep(0.2)
         if pd.isna(row['Comentarios']) or row['Comentarios'] == '':
             pyautogui.press('f9')            
         else:
-            pyautogui.press('tab', presses=4)
+            pyautogui.press('tab', presses=4)            
+            time.sleep(0.2)
             pyautogui.write(f"{row['Comentarios']}")
             pyautogui.press('f9')
         # Pausa para asegurar que el programa externo procese la entrada
@@ -318,8 +321,10 @@ def ingresar_ug(df):
         pyautogui.press('tab')
         pyautogui.write(f"{row['Hasta']}")
         pyautogui.press('tab')
-        #pyautogui.press('esc')
+        pyautogui.press('esc')
+        time.sleep(0.3)
         pyautogui.write(f"{row['UG']}")
+        time.sleep(0.3)
         if pd.isna(row['Comentarios']) or row['Comentarios'] == '':
             pyautogui.press('f9')            
         else:

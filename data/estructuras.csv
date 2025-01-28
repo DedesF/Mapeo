@@ -1,6 +1,5 @@
 Desde,Hasta,Relleno de Est,Angulo,Comentarios
-0.0,8.0,SI,,Relleno de plataforma
-8.0,49.43,FRA,,
-49.43,273.05,SE,,
-273.05,273.3,FSA,,
-273.3,785.0,SE,,
+0.00,21.80,,,tricono
+21.80,"105,08",SE,,
+"105,08",105.25,FAL,,
+105.25,242.00,SE,,
